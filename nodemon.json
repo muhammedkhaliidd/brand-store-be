@@ -1,0 +1,9 @@
+{
+  "watch": ["*.ts", "**/*.ts"],
+  "ext": "ts,json",
+  "exec": "ts-node server.ts",
+  "legacyWatch": true,
+  "polling": true,
+  "delay": 1000
+}
+

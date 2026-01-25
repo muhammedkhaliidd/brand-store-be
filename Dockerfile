@@ -11,5 +11,5 @@ RUN npm install
 EXPOSE 3000
 
 # Default command (can be overridden in docker-compose.yml)
-CMD ["npx", "nodemon"]
+CMD ["npx", "nodemon", "server.ts"]
 
